@@ -25,7 +25,7 @@ The application supports the following features:
 
 ## Relational Data Model
 The foundation of the CampusConnect platform is this schema, which is made to accommodate both present and upcoming improvements.
-![Relational Data Model]('media/rdm.png')
+![Relational Data Model](media/rdm.png)
 
 ## Entity-Relationship Model
 The Entity-Relationship (ER) model for CampusConnect captures the core structure and provides a detailed look at entity membership constraints, and how entities are linked in our database.
