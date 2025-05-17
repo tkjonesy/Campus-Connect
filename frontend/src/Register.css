@@ -1,0 +1,118 @@
+.register-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.register-container .logo-container {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.register-container .logo-container a {
+    text-decoration: none;
+}
+
+.register-container .logo {
+    width: 60px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.register-container .website-name {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.register-container .error-message {
+    color: #d9534f;
+    background-color: #f8d7da;
+    border: 1px solid #d9534f;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register-container h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #0056b3;
+}
+
+.register-container .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.register-container .input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.register-container .input-group input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-container .university-select {
+    position: relative;
+    width: 100%;
+}
+
+.register-container .university-select input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-container .dropdown {
+    position: absolute;
+    width: 95%;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    z-index: 1000;
+}
+
+.register-container .dropdown li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.register-container .dropdown li:hover {
+    background: #f0f0f0;
+}
+
+
+.register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-container button:hover {
+    background-color: #0056b3;
+}

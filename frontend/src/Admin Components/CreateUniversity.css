@@ -1,0 +1,49 @@
+.create-uni-container {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+}
+
+.create-uni-container h2 {
+    text-align: center;
+    color: #007BFF;
+}
+
+.create-uni-container .error-message {
+    color: #d9534f;
+    background-color: #f8d7da;
+    border: 1px solid #d9534f;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.create-uni-container .success-message {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border: 1px solid #3c763d;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.create-uni-container .desc textarea {
+    height: 200px;
+    width: 100%;
+    padding: 12px;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}

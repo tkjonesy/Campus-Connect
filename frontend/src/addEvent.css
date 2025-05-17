@@ -1,0 +1,91 @@
+.event-register-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.event-register-container .logo-container {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.event-register-container .logo-container a{
+    text-decoration: none;
+    color: #213547;
+}
+
+.event-register-container .logo {
+    width: 60px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.event-register-container .website-name {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.event-register-container .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.event-register-container .input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.event-register-container .input-group input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.event-register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.event-register-container button:hover {
+    background-color: #0056b3;
+}
+
+.event-register-container .radio-options {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.event-register-container .radio-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+}
+
+.event-register-container .radio-options input[type="radio"] {
+    margin: 0;
+}
+
+#event-map {
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+    z-index: 0;
+    position: relative;
+  }

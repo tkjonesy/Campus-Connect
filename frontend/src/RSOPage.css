@@ -1,0 +1,97 @@
+.rso-page {
+    margin-top: 130px;
+    padding: 40px;
+    width: 100%;
+    max-width: 1000px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.rso-page h1 {
+    font-size: 2.5em;
+    color: #007BFF;
+    grid-column: span 2;
+    text-align: center;
+}
+
+.rso-page p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.rso-page > p:first-of-type {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.rso-page .title-info {
+    grid-column: span 2;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.rso-page .university-info,
+.rso-page .admin-info,
+.rso-page .members-info {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.rso-page .members-info {
+    grid-column: span 2;
+}
+
+.rso-page .membership-controls {
+    margin: 20px;
+}
+
+.rso-page .join {
+    background-color: green;
+    color: white;
+}
+
+.rso-page .join:hover {
+    background-color: #218838;
+}
+
+.rso-page .leave {
+    background-color: red;
+    color: white;
+}
+
+.rso-page .leave:hover {
+    background-color: #c82333;
+}
+
+.rso-page h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #007BFF;
+}
+
+.rso-page ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rso-page li {
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+
+.add-event-form {
+    grid-column: span 2;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+  }

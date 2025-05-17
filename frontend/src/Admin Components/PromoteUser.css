@@ -1,0 +1,86 @@
+.make-user-admin-container {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+}
+
+.make-user-admin-container h2 {
+    text-align: center;
+    color: #007BFF;
+}
+
+.make-user-admin-container .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.make-user-admin-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.make-user-admin-container input {
+    width: 40%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.make-user-admin-container .error-message {
+    color: #d9534f;
+    background-color: #f8d7da;
+    border: 1px solid #d9534f;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.make-user-admin-container .success-message {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border: 1px solid #3c763d;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.make-user-admin-container .dropdown {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    z-index: 1000;
+}
+
+.make-user-admin-container .dropdown li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.make-user-admin-container .dropdown li:hover {
+    background: #f0f0f0;
+}
+
+.make-user-admin-container button {
+    margin-top: 20px;
+    width: 60%;
+    max-width: 200px;
+}

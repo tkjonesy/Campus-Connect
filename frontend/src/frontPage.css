@@ -1,0 +1,240 @@
+.front-page-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    width: 90%; /*Takes up 90% of the available viewport width */
+    max-width: 1800px; /*Allows the container to grow wide */
+    min-width: 1200px; /*Prevents it from getting too narrow */
+    min-height: 90vh;
+    margin: 120px auto 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.front-page-container h1 {
+    font-size: 24px;
+    color: #007BFF;
+}
+
+.front-page-container h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #007BFF;
+}
+
+.front-page-container label {
+    color: #007BFF;
+}
+
+.front-page-container .event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.event-card a {
+    color: #007BFF;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+.event-card a:hover {
+    text-decoration: underline;
+}
+
+.front-page-container .event-card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: left;
+
+}
+
+.front-page-container .event-card h3 {
+    margin-bottom: 5px;
+    color: #007BFF;
+}
+
+.front-page-container .event-card p {
+    font-size: 14px;
+    color: black;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;      
+    display: -webkit-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    line-clamp: 5;
+    -webkit-line-clamp: 5;
+}
+
+.front-page-container .comment-section {
+    margin-top: 10px;
+}
+
+.front-page-container .comment-section textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-top: 5px;
+}
+
+.front-page-container .comment-section select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.front-page-container .comment-section button {
+    width: 100%;
+    padding: 8px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.front-page-container .comment-section button:hover {
+    background-color: #0056b3;
+}
+
+.front-page-container .expand-button {
+    width: 100%;
+    padding: 8px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.front-page-container .expand-button:hover {
+    background-color: #0056b3;
+}
+
+.comment-section-content {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.submit-comment-button {
+    width: 100%;
+    padding: 8px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.submit-comment-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Ensures text wraps properly and breaks words when necessary */
+.comment-section-content textarea,
+.comment-section-content .comment {
+    width: 95%; /* Slightly smaller to avoid overflow */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.comment-section-content textarea {
+    resize: none;
+    height: 80px;
+}
+
+.comment-section-content button {
+    width: 100%;
+    padding: 8px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.comment-section-content button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the Edit and Delete buttons */
+.comment button {
+    padding: 5px 8px;
+    font-size: 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Edit button styling */
+.comment button.edit-button {
+    background-color: #007BFF;
+    color: white;
+}
+
+.comment button.edit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Delete button styling */
+.comment button.delete-button {
+    background-color: #dc3545; /* Red color */
+    color: white;
+}
+
+.comment button.delete-button:hover {
+    background-color: #c82333;
+}
+
+.admin-delete-btn {
+    padding: 5px 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    float: right;
+}
+
+.admin-delete-btn:hover {
+    background-color: #0056b3;
+}
